@@ -15,7 +15,7 @@ import pandas as pd
 from sklearn.preprocessing import LabelEncoder
 #%%% Importing Data
 
-file_path = 'C:/Users/mashhadcom.com/Desktop/these/ESS-Data-Wizard-subset-2023-09-02.sav'
+file_path = 'ESS-Data-Wizard-subset-2023-09-02.sav'
 data, meta = pyreadstat.read_sav(file_path)
 
 
